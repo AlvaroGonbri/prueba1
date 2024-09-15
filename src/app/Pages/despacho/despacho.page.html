@@ -1,0 +1,69 @@
+<ion-list>
+  <ion-toolbar color="mycolors">
+    <ion-title style="text-align: center;">Sistema Picking</ion-title>
+    <h2 style="text-align: center;">Despacho</h2>
+  </ion-toolbar>
+  <br>
+  <ion-item>
+    <ion-label>Producto: Aceite</ion-label>
+    <ion-item>
+    <ion-label>Pallet N°: 9995</ion-label>
+  </ion-item>
+    <ion-item>
+    <ion-label>SKU: 567891</ion-label>
+    <ion-checkbox justify="end"></ion-checkbox>
+    </ion-item>
+  </ion-item> 
+  <ion-item>
+    <ion-label>Producto: Aceite</ion-label>
+    <ion-item>
+    <ion-label>Pallet N°: 9995</ion-label>
+  </ion-item>
+    <ion-item>
+    <ion-label>SKU: 567891</ion-label>
+    <ion-checkbox justify="end"></ion-checkbox>
+    </ion-item>
+  </ion-item> 
+  <ion-item>
+    <ion-label>Producto: Aceite</ion-label>
+    <ion-item>
+    <ion-label>Pallet N°: 9995</ion-label>
+  </ion-item>
+    <ion-item>
+    <ion-label>SKU: 567891</ion-label>
+    <ion-checkbox justify="end"></ion-checkbox>
+    </ion-item>
+  </ion-item> 
+  <ion-item>
+    <ion-label>Producto: Aceite</ion-label>
+    <ion-item>
+    <ion-label>Pallet N°: 9995</ion-label>
+  </ion-item>
+    <ion-item>
+    <ion-label>SKU: 567891</ion-label>
+    <ion-checkbox justify="end"></ion-checkbox>
+    </ion-item>
+  </ion-item> 
+  <ion-item>
+    <ion-label>Producto: Aceite</ion-label>
+    <ion-item>
+    <ion-label>Pallet N°: 9995</ion-label>
+  </ion-item>
+    <ion-item>
+    <ion-label>SKU: 567891</ion-label>
+    <ion-checkbox justify="end"></ion-checkbox>
+    </ion-item>
+  </ion-item> 
+  <ion-button id="present-alert" fill="clear">Despachar Productos</ion-button>
+  <ion-alert trigger="present-alert" class="custom-alert" header="¿Confirma despacho?" [buttons]="alertButtons"></ion-alert>
+</ion-list>
+<div style="display: flex; justify-content: space-between; padding: 10px;">
+  <ion-button fill="clear">Escanear</ion-button>
+  <ion-button id="open-loading" (click)="openModal()"routerLink="/home">Home</ion-button>
+  <ion-loading class="custom-loading" trigger="open-loading" message="Loading..." [duration]="1000"></ion-loading>
+</div>
+<ion-footer [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">Sistema Distribucion</ion-title>
+  </ion-toolbar>
+</ion-footer>

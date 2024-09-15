@@ -1,0 +1,42 @@
+<ion-list>
+  <ion-header>
+    <ion-toolbar color="mycolors">
+      <h1 style="text-align: center;">Sistema Picking</h1>
+    </ion-toolbar>
+  </ion-header>
+ <ion-button fill="clear" routerLink="/despacho"> 
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Despacho</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Ver productos por despachar
+    </ion-card-content>
+  </ion-card>
+</ion-button>
+<ion-button fill="clear" routerLink="/ingreso"> 
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Ingreso</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Ver productos ingresados
+    </ion-card-content>
+  </ion-card>
+</ion-button>
+<ion-button fill="clear" routerLink="/historial">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Historial</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Historial de productos despachados e ingresados
+    </ion-card-content>
+  </ion-card>
+</ion-button>
+</ion-list>
+<ion-footer [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">Sistema Distribucion</ion-title>
+  </ion-toolbar>
+</ion-footer>
